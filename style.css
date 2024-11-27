@@ -1,0 +1,39 @@
+html {
+  display: flex;
+  justify-content: center;
+  background-color: #1a1a1a;
+  color: #faf5e1;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.name-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.header-links a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #faf5e1;
+}
+
+.flavor-tag {
+  margin: 0px;
+  color: #d3cfbe;
+}
