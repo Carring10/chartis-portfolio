@@ -5,7 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Carrington Hartis</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Nothing+You+Could+Do&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -13,7 +16,7 @@
     <div>
       <div class="name-header">
         <div>
-          <h1 class="name">Carrington</h1>
+          <h1 class="name">Carrington Hartis</h1>
         </div>
         <div class="header-links">
           <a href="#">About</a>
@@ -26,13 +29,31 @@
         consequat.</p>
     </div>
     <div>
-      <button>Linkedin</button>
-      <button>Github</button>
+      <button class="linkedin-button">Linkedin</button>
+      <button class="github-button">Github</button>
     </div>
   </div>
   <div>
     <h1>Selected Projects</h1>
     <p>Projects I'm currently working on</p>
+    <div class="projects-container">
+      <div class="img-border">
+        <div class="browser">
+          <div class="arrow-container">
+            <i class='bx bx-left-arrow-alt' id="arrow"></i>
+            <i class='bx bx-right-arrow-alt' id="arrow"></i>
+          </div>
+          <i class='bx bx-refresh' id="refresh"></i>
+          <div class="search-bar">
+            <i class="bx bx-search" id="search-icon"></i>
+            <p class="project-title">Virtual Vanguard</p>
+            <i class='bx bx-star' id="star"></i>
+          </div>
+          <i class='bx bx-menu' id="menu"></i>
+        </div>
+        <img src="assets/virtual-vanguard-feed.png" />
+      </div>
+    </div>
   </div>
 </body>
 
