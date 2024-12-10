@@ -2,9 +2,9 @@ html {
   display: flex;
   justify-content: center;
   height: 100vh;
-  background-color: #1a1a1a;
-  background: rgb(219,219,219);
-  background: linear-gradient(0deg, rgba(219,219,219,1) 0%, rgba(250,250,250,1) 100%);
+  /* background-color: #1a1a1a; */
+  /* background: rgb(219,219,219); */
+  /* background: linear-gradient(0deg, rgba(219,219,219,1) 0%, rgba(250,250,250,1) 100%); */
   color: #000000;
   font-family: Afacad Flux;
 }
@@ -136,4 +136,54 @@ img {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   height: 260px;
+}
+
+.about-project {
+  position: relative;
+  padding: 10px;
+}
+
+#hand-drawn-arrow {
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: -30px;
+  left: 60px;
+  margin: 0px;
+  padding: 0px;
+  transform: rotate(25deg);
+}
+
+.virtual-vanguard-flavor-tag {
+  font-family: Nothing You Could Do;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  margin: 0px;
+  padding: 0px;
+  transform: rotate(20deg);
+  white-space: nowrap;
+}
+
+#hand-drawn-star {
+  width: 35px;
+  height: auto;
+  position: absolute;
+  top: -17px;
+  left: 70px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.warcraft-geoguesser-flavor-tag {
+  font-family: Nothing You Could Do;
+  font-weight: bold;
+  position: absolute;
+  top: -35px;
+  left: 100px;
+  margin: 0px;
+  padding: 0px;
+  transform: rotate(-10deg);
+  white-space: nowrap;
 }
