@@ -61,6 +61,19 @@ button {
   color: rgb(17, 12, 53);
 }
 
+/* All the projects */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Single project */
+.project-container {
+  display: flex;
+  gap: 10px;
+}
+
 .img-border {
   border: 2px solid black;
   border-radius: 10px;
@@ -101,7 +114,7 @@ button {
   position: absolute;
   top: 0%;
   left: 20px;
-  color:#3f3f3f;
+  color: #3f3f3f;
 }
 
 #search-icon {
