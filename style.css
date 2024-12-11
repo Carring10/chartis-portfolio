@@ -7,6 +7,7 @@ html {
   /* background: linear-gradient(0deg, rgba(219,219,219,1) 0%, rgba(250,250,250,1) 100%); */
   color: #000000;
   font-family: Afacad Flux;
+  font-size: 17px;
 }
 
 body {
@@ -50,15 +51,32 @@ button {
   border: 1px solid rgb(17, 12, 53);
   border-radius: 5px;
   font-size: 15px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
 }
 
 .linkedin-button {
+  position: relative;
   background-color: rgb(17, 12, 53);
   color: white;
 }
 
+#linkedin-square {
+  font-size: 17px;
+  position: absolute;
+  right: 40px;
+}
+
 .github-button {
+  position: relative;
   color: rgb(17, 12, 53);
+  background-color: white;
+}
+
+#github-logo {
+  position: absolute;
+  left: 40px;
+  font-size: 17px;
 }
 
 /* All the projects */
@@ -157,6 +175,7 @@ img {
 .virtual-vanguard-flavor-tag {
   font-family: Nothing You Could Do;
   font-weight: bold;
+  font-size: 15px;
   position: absolute;
   top: 0px;
   left: 100px;
@@ -179,6 +198,7 @@ img {
 .warcraft-geoguesser-flavor-tag {
   font-family: Nothing You Could Do;
   font-weight: bold;
+  font-size: 15px;
   position: absolute;
   top: -35px;
   left: 100px;
