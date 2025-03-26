@@ -44,6 +44,10 @@ body {
   color: #000000;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   padding: 10px;
   margin-right: 10px;
@@ -159,6 +163,39 @@ img {
 .about-project {
   position: relative;
   padding: 10px;
+}
+
+#hand-drawn-chat-bubble {
+  width: 340px;
+  height: auto;
+  position: absolute;
+  top: -120px;
+  left: 70px;
+  margin: 0px;
+  padding: 0px;
+  transform: rotate(-5deg);
+}
+
+.kitchen-alchemy-flavor-tag {
+  font-family: Nothing You Could Do;
+  font-weight: bold;
+  font-size: 14px;
+  position: absolute;
+  top: -55px;
+  left: 120px;
+  margin: 0px;
+  padding: 0px;
+  transform: rotate(-5deg);
+  white-space: nowrap;
+}
+
+.kitchen-alchemy {
+  position: relative;
+  z-index: 2;
+}
+
+.kitchen-alchemy-description {
+  position: relative;
 }
 
 #hand-drawn-arrow {
