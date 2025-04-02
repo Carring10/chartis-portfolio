@@ -63,18 +63,31 @@ button {
   position: relative;
   background-color: rgb(17, 12, 53);
   color: white;
+  transition: .2s;
 }
 
 #linkedin-square {
   font-size: 17px;
   position: absolute;
   right: 40px;
+  transition: .2s;
+}
+
+.linkedin-button:hover {
+  transform: translate(2px, -2px);
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .github-button {
   position: relative;
   color: rgb(17, 12, 53);
   background-color: white;
+  transition: .3s;
+}
+
+.github-button:hover {
+  transform: translate(2px, -2px);
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 #github-logo {
