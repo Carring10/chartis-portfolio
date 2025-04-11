@@ -127,6 +127,9 @@ button {
   width: 100%;
   height: 40px;
   border-bottom: 2px solid black;
+  background-color: #ececec;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 #arrow {
@@ -146,6 +149,7 @@ button {
   height: 20px;
   border: 1px solid black;
   border-radius: 5px;
+  background-color: white;
 }
 
 .project-title {
