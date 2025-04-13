@@ -25,7 +25,7 @@ async function showAnnotationsSequentially() {
         animationDuration: 800
       });
       annotation.show();
-      await sleep(1500);
+      await sleep(1000);
     }
   }
 }
