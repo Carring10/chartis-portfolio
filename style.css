@@ -320,3 +320,43 @@ footer a {
 footer a:hover {
   transform: translate(2px, -2px);
 }
+
+@media (max-width: 1450px) {
+  .project-container {
+    flex-direction: column;
+  }
+
+  .project-description {
+    width: 550px;
+  }
+
+  #hand-drawn-chat-bubble {
+    left: 600px;
+    top: -300px;
+  }
+
+  .kitchen-alchemy-flavor-tag {
+    left: 650px;
+    top: -235px;
+  }
+
+  #hand-drawn-arrow {
+    top: -265px;
+    left: 605px;
+  }
+
+  .virtual-vanguard-flavor-tag {
+    left: 650px;
+    top: -235px;
+  }
+
+  #hand-drawn-star {
+    top: -220px;
+    left: 615px;
+  }
+
+  .warcraft-geoguesser-flavor-tag {
+    top: -235px;
+    left: 650px;
+  }
+}
