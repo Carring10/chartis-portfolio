@@ -51,6 +51,10 @@ a {
   text-decoration: none;
 }
 
+span {
+  white-space: nowrap;
+}
+
 button {
   padding: 10px;
   margin-right: 10px;
@@ -262,15 +266,37 @@ img {
   width: 300px;
 }
 
-#hand-drawn-arrow {
-  width: 40px;
+#hand-drawn-arrow-1 {
+  width: 70px;
   height: auto;
   position: absolute;
-  top: -30px;
-  left: 60px;
+  top: -35px;
+  left: 35px;
   margin: 0px;
   padding: 0px;
   transform: rotate(25deg);
+}
+
+#hand-drawn-arrow-2 {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  top: -35px;
+  left: 43px;
+  margin: 0px;
+  padding: 0px;
+  transform: rotate(180deg);
+}
+
+#hand-drawn-arrow-3 {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  top: -14px;
+  left: 25px;
+  margin: 0px;
+  padding: 0px;
+  transform: rotate(0deg);
 }
 
 .virtual-vanguard-flavor-tag {
@@ -339,9 +365,19 @@ footer a:hover {
     width: 550px;
   }
 
-  #hand-drawn-chat-bubble {
-    left: 600px;
-    top: -300px;
+  #hand-drawn-arrow-1 {
+    left: 580px;
+    top: -270px;
+  }
+
+  #hand-drawn-arrow-2 {
+    left: 570px;
+    top: -220px;
+  }
+
+  #hand-drawn-arrow-3 {
+    left: 570px;
+    top: -210px;
   }
 
   .kitchen-alchemy-flavor-tag {
@@ -367,5 +403,25 @@ footer a:hover {
   .warcraft-geoguesser-flavor-tag {
     top: -235px;
     left: 650px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .header-container {
+    width: 60%;
+  }
+
+  .contents-container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header-container {
+    width: 70%;
+  }
+
+  .contents-container {
+    width: 70%;
   }
 }
