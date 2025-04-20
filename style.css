@@ -30,10 +30,10 @@ body {
   font-size: 20px;
 }
 
-.header-links a {
+.email-link {
   margin-left: 10px;
-  text-decoration: none;
-  color: #000000;
+  text-decoration: underline;
+  color: #110c35;
 }
 
 .flavor-tag {
@@ -309,8 +309,14 @@ footer {
   padding: 30px;
 }
 
-footer i {
+footer a {
   font-size: 35px;
   color: rgb(17, 12, 53);
+  background-color: transparent;
   margin: 5px;
+  transition: .2s;
+}
+
+footer a:hover {
+  transform: translate(2px, -2px);
 }
