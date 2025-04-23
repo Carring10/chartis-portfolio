@@ -163,7 +163,7 @@ button {
 .project-title {
   margin: 0px;
   position: absolute;
-  top: 0%;
+  top: -5%;
   left: 20px;
   color: #3f3f3f;
 }
@@ -423,5 +423,131 @@ footer a:hover {
 
   .contents-container {
     width: 70%;
+  }
+
+  .absolute-container {
+    position: absolute;
+    top: -150px;
+    left: -250px;
+  }
+}
+
+@media (max-width: 772px) {
+  .header-container {
+    width: 80%;
+  }
+
+  .contents-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 726px) {
+  .header-container {
+    width: 90%;
+  }
+
+  .contents-container {
+    width: 90%;
+  }
+
+  .project-container {
+    align-items: center;
+  }
+
+  .absolute-container {
+    display: none;
+  }
+}
+
+@media (max-width: 586px) {
+  .name {
+    font-size: 28px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .img-border {
+    width: 95%;
+    height: auto;
+  }
+
+  .img-container {
+    width: 100%;
+    height: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-description {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-container {
+    gap: 10px;
+  }
+
+  .flavor-tag {
+    margin: 0px 0px 20px;
+  }
+
+  .info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .name-header {
+    flex-direction: column;
+  }
+
+  .header-links .email-link {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 490px) {
+  #arrow {
+    font-size: 15px;
+    margin: 0px;
+  }
+
+  #refresh {
+    font-size: 16px;
+  }
+
+  #search-icon {
+    font-size: 15px;
+  }
+
+  #star {
+    font-size: 15px;
+  }
+
+  #menu {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 418px) {
+  .name {
+    font-size: 25px;
+  }
+
+  .header-links a {
+    font-size: 18px;
   }
 }
