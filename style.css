@@ -497,6 +497,11 @@ footer a:hover {
 @media (max-width: 500px) {
   .header-container {
     gap: 10px;
+    width: 100%;
+  }
+
+  .contents-container {
+    width: 100%;
   }
 
   .flavor-tag {
@@ -514,8 +519,30 @@ footer a:hover {
     flex-direction: column;
   }
 
-  .header-links .email-link {
+  .header-links, .email-link {
     margin: 0px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .linkedin-button, .github-button {
+    margin: 0px;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  #linkedin-square {
+    font-size: 20px;
+    right: 48px;
+  }
+
+  #github-logo {
+    font-size: 20px;
+    left: 48px;
   }
 }
 
@@ -549,5 +576,110 @@ footer a:hover {
 
   .header-links a {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 390px) {
+  .linkedin-button, .github-button {
+    width: 160px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  #linkedin-square {
+    font-size: 18px;
+    right: 43px;
+  }
+
+  #github-logo {
+    font-size: 18px;
+    left: 43px;
+  }
+}
+
+@media (max-width: 344px) {
+  .name {
+    font-size: 23px;
+  }
+
+  .flavor-tag {
+    font-size: 15px;
+  }
+
+  .linkedin-button, .github-button {
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  #linkedin-square {
+    font-size: 16px;
+    right: 38px;
+  }
+
+  #github-logo {
+    font-size: 16px;
+    left: 38px;
+  }
+}
+
+@media (max-width: 318px) {
+  .header-container {
+    /* text-align: center; */
+  }
+
+  .info-container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .header-links {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .linkedin-button, .github-button {
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  #linkedin-square {
+    font-size: 16px;
+    right: 67px;
+  }
+
+  #github-logo {
+    font-size: 16px;
+    left: 67px;
+  }
+
+  h1 {
+    font-size: 23px;
+    margin: 10px 0px;
+  }
+
+  .contents-container p {
+    margin: 10px 0px;
+  }
+
+  .projects-container {
+    gap: 15px;
+  }
+
+  .project-title {
+    display: none;
+  }
+
+  h4 {
+    margin: 5px;
   }
 }
